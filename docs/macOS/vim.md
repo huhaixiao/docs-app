@@ -1,36 +1,6 @@
-<!-- toc -->
-- [command mode](#command-mode)
-- [navigation](#navigation)
-- [deletion](#deletion)
-- [Command mode](#command-mode-1)
-- [Visual mode](#visual-mode)
-- [Insert mode](#insert-mode)
+# vim
 
-# command mode
-```
-h //left
-j // down
-k // up
-l // right
-b // prev word
-w // next word
-0 // line start
-^ // line start
-$ // line end
-:number // goto <line_number>
-gg // top
-G // bottom
-zz // 
-
-?<key_word> // find pre <key_word>
-/<key_word> // find next <key_word>
-n // next found <key_word>
-
-f<character> // find <character> in line
-; // next found <character> in line
-```
-
-# navigation
+## navigation
 ```
 // [number_prefix]
 h // left
@@ -69,13 +39,13 @@ zz // make screen in the middle
 /<key_word> // 向下搜索
 ```
 
-# deletion
+## deletion
 ```
 [number] dd // delete line
 d [number] <navigation> // delete number of navigation
 ```
 
-# Command mode
+## Command mode
 
 ```
 vim <file>
@@ -100,9 +70,30 @@ u // undo
 :q // quite
 :wq // write & quit
 :q! // quit force
+
+h //left
+j // down
+k // up
+l // right
+b // prev word
+w // next word
+0 // line start
+^ // line start
+$ // line end
+:number // goto <line_number>
+gg // top
+G // bottom
+zz // 
+
+?<key_word> // find pre <key_word>
+/<key_word> // find next <key_word>
+n // next found <key_word>
+
+f<character> // find <character> in line
+; // next found <character> in line
 ```
 
-# Visual mode
+## Visual mode
 
 ```
 V // VISUAL mode
@@ -110,7 +101,7 @@ d // delete selection
 
 ```
 
-# Insert mode
+## Insert mode
 
 ```
 i // insert before
