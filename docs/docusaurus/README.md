@@ -1,6 +1,8 @@
 # docusaurus
 
 - https://docusaurus.io/
+- [katex](https://katex.org/)
+- [math-equations](https://docusaurus.io/docs/markdown-features/math-equations)
 - [Client API](https://docusaurus.io/docs/docusaurus-core)
 - By default, any Markdown or JavaScript file starting with _ will be ignored and no routes will be created for that file (see the exclude option).
 
