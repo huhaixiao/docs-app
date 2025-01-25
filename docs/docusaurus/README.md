@@ -1,6 +1,7 @@
 # docusaurus
 
 - https://docusaurus.io/
+- [plugin-pwa](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-pwa)
 - [katex](https://katex.org/)
 - [math-equations](https://docusaurus.io/docs/markdown-features/math-equations)
 - [Client API](https://docusaurus.io/docs/docusaurus-core)
