@@ -44,7 +44,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(37, 194, 160)',
+            content: 'rgb(0, 0, 0)',
           },
         ],
       },
@@ -93,6 +93,13 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+    stylesheets: [
+      {
+        href: '/assets/katex.min.css',
+        type: 'text/css'
+      }
+    ]
 };
 
 export default config;
